@@ -13,19 +13,46 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
+    <!-- Locale Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css" />
     <!-- Local CSS -->
     <link rel="stylesheet" href="/css/style.css" />
 
-    <title>Document</title>
+    <title>Bootstrap Theme</title>
   </head>
   <body>
+    <!-- START HERE -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img src="/img/mlogo.png" width="50" height="50" alt="" />
+          <h3 class="d-inline align-middle">Mizuxe</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#authors" class="nav-link">Meet The Authors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- JQuery (For getting year)-->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
