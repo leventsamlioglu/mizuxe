@@ -1,0 +1,17 @@
+{
+  "name": "xmizuxe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.39.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w sass/ -o css/ —recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
