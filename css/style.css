@@ -36,7 +36,7 @@ body {
   background: #3292a6;
   color: #fff; }
 
-#authors .fab {
+#authors .bi {
   color: #fff; }
 
 @media (max-width: 768px) {
@@ -51,3 +51,7 @@ body {
   #showcase .img-fluid {
     max-width: 86%;
     height: auto; } }
+
+@media (min-width: 992px) {
+  #authors .card {
+    height: 100%; } }
