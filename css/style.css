@@ -39,6 +39,10 @@ body {
 #authors .bi {
   color: #fff; }
 
+#contact .input-group-text {
+  height: 100%;
+  align-items: center; }
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px; }
